@@ -361,6 +361,8 @@ impl Genesis {
                 })?,
             "--vote-commission-percentage".to_string(),
             self.flags.commission.to_string(),
+            "--deactivate-feature".to_string(),
+            "9bn2vTJUsUcnpiZWbu2woSKtTGW3ErZC9ERv88SDqQjK".to_string(),
         ];
 
         if self.flags.enable_warmup_epochs {
